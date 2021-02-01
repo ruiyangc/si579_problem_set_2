@@ -1,0 +1,30 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+h2 {
+    max-width: 800px;
+    min-width: 100px;
+    background-color: #CCCCFF;
+    animation-name: example;
+    animation-delay: 2s;
+    animation-duration: 10s;
+    color: white;
+}
+p {
+    max-width: 800px;
+    min-width: 100px;
+    color:#154360;
+}
+img {
+    max-width: 500px;
+    min-width: 100px;
+}
+a.prtTwo {
+    font-size: 24pt;
+    color:#154360;
+}
+@keyframes example {
+    from {background-color: #CCCCFF;}
+    to {background-color: #6495ED;}
+    }
